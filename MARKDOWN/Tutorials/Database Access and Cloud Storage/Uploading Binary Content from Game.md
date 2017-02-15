@@ -113,3 +113,7 @@ As with the upload we expose the method getUploadedRequest to build the request 
 ### Others
 
 We haven't yet added the above convenience methods for any of the SDKs apart from the Android and Unity SDKs, so for now you'll need to implement the multipart post yourself. We won't go into the details of exactly how to implement this here as there are many great resources already available that cover this. What you do need to know is that the parameter name against which the binary content is posted is file.
+
+### Limits
+
+Uploaded files can't be more than 4mb per file.
